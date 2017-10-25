@@ -1,0 +1,17 @@
+2017-10-24 17:31:54:591 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: jdk.version    => 1.8.0_131
+2017-10-24 17:31:54:606 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.dir       => D:\IDE\shehuizhuyi
+2017-10-24 17:31:54:606 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: java.io.tmpdir => C:\Users\admin\AppData\Local\Temp\
+2017-10-24 17:31:54:607 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.timezone  => Asia/Shanghai
+2017-10-24 17:31:54:607 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: file.encoding  => UTF-8
+2017-10-24 17:31:54:607 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: classpath      => D:\IDE\shehuizhuyi\target\classes
+2017-10-24 17:31:54:763 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/
+2017-10-24 17:31:54:763 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/home
+2017-10-24 17:31:54:773 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Register bean: [com.blade.Environment@6dc408fd, com.sav.config.LoadConfig@25e5b8cb, com.sav.controller.IndexController@c688b60, com.sav.service.GoodsImpl@40a57103, com.sav.config.LoadConfig@25e5b8cb, com.sav.service.GoodsImpl@40a57103, com.sav.controller.GoodsController@d6b1a0a]
+2017-10-24 17:31:54:819 INFO - [ _(:3」∠)_ ] c.b.j.Base                | ⬢ Blade-JDBC initializing
+2017-10-24 17:31:54:926 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Use NioEventLoopGroup
+2017-10-24 17:31:56:642 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ sav initialize successfully, Time elapsed: 2088 ms
+2017-10-24 17:31:56:643 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Blade start with 0.0.0.0:9000
+2017-10-24 17:31:56:643 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Open your web browser and navigate to http://127.0.0.1:9000 ⚡
+2017-10-24 17:32:00:061 INFO - [ worker@pool thread-1 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/home
+2017-10-24 17:33:26:598 INFO - [ worker@pool thread-1 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/home
+2017-10-24 17:49:30:860 INFO - [ worker@pool thread-2 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/home
