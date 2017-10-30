@@ -30,6 +30,8 @@ public class LoginController {
         }
     }
     //注册用户
-//    public
+    public boolean registeredUser(@Param User user){
+
+    }
 
 }

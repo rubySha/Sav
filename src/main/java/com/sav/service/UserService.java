@@ -7,4 +7,5 @@ import com.sav.model.User;
  */
 public interface UserService {
     User checkLogin(String loginName, String password);
+    int insertUser(User user);
 }

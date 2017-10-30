@@ -14,4 +14,10 @@ public class UserServiceImpl implements UserService{
         User loginUser = user.query("select * from user where LOGIN_NAME = ? AND PASSWORD=?",loginName,password);
         return loginUser;
     }
+
+    @Override
+    public int insertUser(User user){
+        User sql = new User();
+        User loginUser = user.query("",user);
+    }
 }
