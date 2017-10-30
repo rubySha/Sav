@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by Sha on 2017/10/24.
  */
-@Path
+@Path(value = "/good")
 public class GoodsController {
 
     @Inject
@@ -21,7 +21,7 @@ public class GoodsController {
     @Route(value = "/init", method = HttpMethod.GET)
     public List<GoodsInfo> home() {
     List<GoodsInfo> result = goods.initGoods();
-        return result;
+    return result;
 }
 
 }
