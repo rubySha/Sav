@@ -1,7 +1,6 @@
 package com.sav.service;
 
-import com.blade.ioc.annotation.Bean;
-import com.sav.model.Goods_info;
+import com.sav.model.GoodsInfo;
 
 import java.util.List;
 
@@ -9,6 +8,6 @@ import java.util.List;
  * Created by Sha on 2017/10/24.
  */
 public interface Goods {
-    List<Goods_info> initGoods();
+    List<GoodsInfo> initGoods();
     int deleteGoods(int id);
 }
