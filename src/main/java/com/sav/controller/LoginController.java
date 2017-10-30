@@ -22,7 +22,11 @@ public class LoginController {
         if(loginuser == null){
             return false;
         }else{
-            return true;
+            if (loginuser.getAuth().equals(1)){
+                return true;
+            }else {
+                return false;
+            }
         }
     }
     //注册用户
