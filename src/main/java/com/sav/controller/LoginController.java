@@ -17,8 +17,8 @@ public class LoginController {
 
     //登录
     @Route(value = "/login", method = HttpMethod.POST)
-    public boolean registered(@Param User user){
-        User loginuser = userService.checkLogin(user.getLoginName(),user.getPsssword());
+    public boolean login(@Param String loginName,@Param String password){
+        User loginuser = userService.checkLogin(loginName,password);
         if(loginuser == null){
             return false;
         }else{
@@ -31,7 +31,7 @@ public class LoginController {
     }
     //注册用户
     public boolean registeredUser(@Param User user){
-
+        return true;
     }
 
 }

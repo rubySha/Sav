@@ -19,5 +19,6 @@ public class UserServiceImpl implements UserService{
     public int insertUser(User user){
         User sql = new User();
         User loginUser = user.query("",user);
+        return 1;
     }
 }
