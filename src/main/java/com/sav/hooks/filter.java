@@ -17,7 +17,7 @@ public class filter implements WebHook {
     @Override
     public boolean before(Signature signature) {
         Request request = signature.request();
-        String  uri = request.uri();
+        String uri = request.uri();
         log.info("{}\t{}", request.method(), uri);
         return true;
     }
