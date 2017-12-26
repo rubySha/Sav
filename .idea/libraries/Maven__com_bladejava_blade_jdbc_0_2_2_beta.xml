@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.bladejava:blade-jdbc:0.2.2-beta">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.0/repository/com/bladejava/blade-jdbc/0.2.2-beta/blade-jdbc-0.2.2-beta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/bladejava/blade-jdbc/0.2.2-beta/blade-jdbc-0.2.2-beta.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.0/repository/com/bladejava/blade-jdbc/0.2.2-beta/blade-jdbc-0.2.2-beta-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/bladejava/blade-jdbc/0.2.2-beta/blade-jdbc-0.2.2-beta-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.0/repository/com/bladejava/blade-jdbc/0.2.2-beta/blade-jdbc-0.2.2-beta-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/bladejava/blade-jdbc/0.2.2-beta/blade-jdbc-0.2.2-beta-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,17 +1,28 @@
-2017-10-24 17:31:54:591 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: jdk.version    => 1.8.0_131
-2017-10-24 17:31:54:606 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.dir       => D:\IDE\shehuizhuyi
-2017-10-24 17:31:54:606 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: java.io.tmpdir => C:\Users\admin\AppData\Local\Temp\
-2017-10-24 17:31:54:607 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.timezone  => Asia/Shanghai
-2017-10-24 17:31:54:607 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: file.encoding  => UTF-8
-2017-10-24 17:31:54:607 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: classpath      => D:\IDE\shehuizhuyi\target\classes
-2017-10-24 17:31:54:763 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/
-2017-10-24 17:31:54:763 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/home
-2017-10-24 17:31:54:773 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Register bean: [com.blade.Environment@6dc408fd, com.sav.config.LoadConfig@25e5b8cb, com.sav.controller.IndexController@c688b60, com.sav.service.GoodsImpl@40a57103, com.sav.config.LoadConfig@25e5b8cb, com.sav.service.GoodsImpl@40a57103, com.sav.controller.GoodsController@d6b1a0a]
-2017-10-24 17:31:54:819 INFO - [ _(:3」∠)_ ] c.b.j.Base                | ⬢ Blade-JDBC initializing
-2017-10-24 17:31:54:926 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Use NioEventLoopGroup
-2017-10-24 17:31:56:642 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ sav initialize successfully, Time elapsed: 2088 ms
-2017-10-24 17:31:56:643 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Blade start with 0.0.0.0:9000
-2017-10-24 17:31:56:643 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Open your web browser and navigate to http://127.0.0.1:9000 ⚡
-2017-10-24 17:32:00:061 INFO - [ worker@pool thread-1 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/home
-2017-10-24 17:33:26:598 INFO - [ worker@pool thread-1 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/home
-2017-10-24 17:49:30:860 INFO - [ worker@pool thread-2 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/home
+2017-11-06 15:31:53:616 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: jdk.version    => 1.8.0_131
+2017-11-06 15:31:53:620 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.dir       => D:\IDE\shehuizhuyi
+2017-11-06 15:31:53:621 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: java.io.tmpdir => C:\Users\admin\AppData\Local\Temp\
+2017-11-06 15:31:53:621 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.timezone  => Asia/Shanghai
+2017-11-06 15:31:53:621 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: file.encoding  => UTF-8
+2017-11-06 15:31:53:621 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: classpath      => D:\IDE\shehuizhuyi\target\classes
+2017-11-06 15:31:53:792 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/
+2017-11-06 15:31:53:792 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/good/init
+2017-11-06 15:31:53:793 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [BEFORE	/.*]
+2017-11-06 15:31:53:793 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [AFTER	/.*]
+2017-11-06 15:31:53:799 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Register bean: [com.blade.Environment@24af2a9e, com.sav.config.LoadConfig@8b5ea9e, com.sav.controller.IndexController@6c3212db, com.sav.service.impl.GoodsImpl@6b5998e0, com.sav.hooks.login@367fb4cf, com.sav.config.LoadConfig@8b5ea9e, com.sav.hooks.login@367fb4cf, com.sav.service.impl.GoodsImpl@6b5998e0, com.sav.controller.GoodsController@11395984]
+2017-11-06 15:31:53:823 INFO - [ _(:3」∠)_ ] c.b.j.Base                | ⬢ Blade-JDBC initializing
+2017-11-06 15:31:53:921 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Use NioEventLoopGroup
+2017-11-06 15:31:55:868 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ sav initialize successfully, Time elapsed: 2284 ms
+2017-11-06 15:31:55:868 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Blade start with 0.0.0.0:9000
+2017-11-06 15:31:55:869 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Open your web browser and navigate to http://127.0.0.1:9000 ⚡
+2017-11-06 15:37:28:114 INFO - [ worker@pool thread-1 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/
+2017-11-06 15:37:44:721 INFO - [ worker@pool thread-1 ] c.s.h.login               | GET	/
+2017-11-06 15:38:00:561 INFO - [ worker@pool thread-1 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/good/init
+2017-11-06 15:41:14:415 INFO - [ worker@pool thread-1 ] c.s.h.login               | GET	/good/init
+2017-11-06 15:43:13:599 INFO - [ worker@pool thread-1 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/good/init
+2017-11-06 15:49:41:433 INFO - [ worker@pool thread-1 ] c.s.h.login               | GET	/good/init
+2017-11-06 15:56:09:044 INFO - [ worker@pool thread-2 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/good/init
+2017-11-06 15:56:09:045 INFO - [ worker@pool thread-2 ] c.s.h.login               | GET	/good/init
+2017-11-06 15:57:59:976 INFO - [ worker@pool thread-2 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/good/init
+2017-11-06 15:57:59:976 INFO - [ worker@pool thread-2 ] c.s.h.login               | GET	/good/init
+2017-11-06 15:58:31:001 INFO - [ worker@pool thread-2 ] c.b.s.n.HttpServerHandler | HTTP/1.1	GET	/good/init
+2017-11-06 16:02:26:950 INFO - [ worker@pool thread-2 ] c.s.h.login               | GET	/good/init
