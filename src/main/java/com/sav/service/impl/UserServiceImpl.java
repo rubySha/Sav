@@ -1,11 +1,13 @@
 package com.sav.service.impl;
 
+import com.blade.ioc.annotation.Bean;
 import com.sav.model.User;
 import com.sav.service.UserService;
 
 /**
  * Created by Sha on 2017/10/30.
  */
+@Bean
 public class UserServiceImpl implements UserService{
 
     @Override
