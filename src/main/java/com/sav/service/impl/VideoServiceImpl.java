@@ -1,6 +1,7 @@
 package com.sav.service.impl;
 
 import com.blade.ioc.annotation.Bean;
+import com.sav.model.User;
 import com.sav.model.Video;
 import com.sav.service.VideoService;
 
@@ -16,6 +17,7 @@ public class VideoServiceImpl implements VideoService{
     @Override
     public List<Video> getVideoList(){
         Video video = new Video();
-        return new ArrayList<>();
+        List<Video> videos = video.where("videoType", "国产自拍").findAll();
+        return videos;
     }
 }

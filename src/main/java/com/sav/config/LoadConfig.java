@@ -13,6 +13,6 @@ public class LoadConfig implements BeanProcessor {
 
     @Override
     public void processor(Blade blade) {
-        Base.open("jdbc:mysql", "root", "123456");
+        Base.open("jdbc:mysql/47.93.252.10:3306/station", "root", "123456");
     }
 }
